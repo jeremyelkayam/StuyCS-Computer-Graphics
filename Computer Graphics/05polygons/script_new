@@ -1,0 +1,44 @@
+#test box mesh
+torus
+3 -250 30 175
+ident
+xrotate
+40
+yrotate
+20
+translate
+220 35 0
+apply
+torus
+3 -250 200 175
+ident
+xrotate
+130
+yrotate
+110
+translate
+220 35 0
+apply
+box
+0 0 0 20 10 20
+ident
+xrotate
+40
+yrotate
+40
+translate
+100 200 0
+apply
+box
+0 0 0 20 10 20
+ident
+xrotate
+40
+yrotate
+40
+translate
+150 200 0
+apply
+display
+save
+lol.png
